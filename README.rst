@@ -1,5 +1,6 @@
 
-<a href='https://travis-ci.org/frdb194/emc'><img src='https://secure.travis-ci.org/frdb194/emc.png?branch=master'></a>
+.. image:: https://travis-ci.org/frdb194/emc.svg?branch=master
+    :target: https://travis-ci.org/frdb194/emc
 
 GENERAL USAGE NOTES
 -------------------
