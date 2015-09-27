@@ -1,4 +1,5 @@
 
+<a href='https://travis-ci.org/ frdb194/emc'><img src='https://secure.travis-ci.org/ frdb194/emc.png?branch=master'></a>
 
 GENERAL USAGE NOTES
 -------------------
