@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: encrypt
+Version: 0.0.8
+Summary: python utility for encrypting files
+Home-page: http://imenasoftware.wordpress.com/encrypt/
+Author: Freddy Bihozagara
+Author-email: support@imenasoftware.com
+License: MIT
+Description: README.rst
+Platform: linux
+Platform: Mac
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
