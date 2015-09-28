@@ -72,16 +72,16 @@ def decrypt_files():
 	return originl
 
 
-klear = ""
+CLS = ""
 done = "Successfully completed Encryption/Decryption of your data!"
 
 
 def clear():
-	dstate.set(klear)
-	fileLocation.set(klear)
-	dfileLocation.set(klear)
-	s_key.set(klear)
-	dcrypto.set(klear)
+	dstate.set(CLS)
+	fileLocation.set(CLS)
+	dfileLocation.set(CLS)
+	s_key.set(CLS)
+	dcrypto.set(CLS)
 	
 	
 def doCrypto():
@@ -123,7 +123,7 @@ encrypt_it = Radiobutton(app, text='encrypt data', variable=dcrypto, value='encr
 decrypt_it = Radiobutton(app, text='decrypt data', variable=dcrypto, value='dencrypT').pack(side="top", pady=5)
 
 
-button0 = Button(app, text="choose file to encrypt or decrypt", width=40, command=openFile).pack(side="top", padx=15, pady=20)
+B1 = Button(app, text="choose file to encrypt or decrypt", width=40, command=openFile).pack(side="top", padx=15, pady=20)
 
 fileLocation = StringVar()
 fileLocation.set("")
@@ -136,19 +136,19 @@ label2 = Label(app, textvariable=labelText).pack(side="top", pady=20)
 s_key = StringVar()
 f_key = Entry(app, textvariable=s_key, width=32).pack(side="top", pady=20)
 
-button2 = Button(app, text="save data to file", width=20, command=saveFile).pack(side="top", padx=15, pady=20)
+B2 = Button(app, text="save data to file", width=20, command=saveFile).pack(side="top", padx=15, pady=20)
 
 dfileLocation = StringVar()
 dfileLocation.set("")
 df_location = Entry(app, textvariable=dfileLocation, width=40).pack(side="top", pady=20)
 
-button1 = Button(app, text="Encrypt or Decrypt Data", width=20, command=doCrypto).pack(side="top", padx=15, pady=20)
+B3 = Button(app, text="Encrypt or Decrypt Data", width=20, command=doCrypto).pack(side="top", padx=15, pady=20)
 
 dstate = StringVar()
 dstate.set("")
 state = Entry(app, textvariable=dstate, width=50).pack(side="top", pady=20)
 
-button3 = Button(app, text="clear", width=10, command=clear).pack(side="top", padx=15, pady=20)
+B4 = Button(app, text="clear", width=10, command=clear).pack(side="top", padx=15, pady=20)
 
 output = StringVar()
 output.set("v0.0.8. Python 2.7					@copyrights 2015 Imena Labs Ltd.")
