@@ -17,7 +17,7 @@ contact:
 
 IMENA Labs Ltd.
 
-email:	support@imenasoftware.com
+email:	support@imenalabs.ca
 
 
 Copyright(C) 2015 IMENA Labs Ltd.
