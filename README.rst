@@ -5,7 +5,7 @@
 GENERAL USAGE NOTES
 -------------------
 
-- Encrypt requires python 2.7.
+- Encrypt requires python 2.7 and the python-tk package.
 
 - To launch Encrypt: go to the command line and type in 'python encrypt'
 or double click on encrypt.py.
