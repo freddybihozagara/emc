@@ -20,5 +20,5 @@ IMENA Labs Ltd.
 email:	support@imenalabs.ca
 
 
-Copyright(C) 2015 IMENA Labs Ltd.
+Copyright(C) &copy 2015 IMENA Labs Ltd.
 
