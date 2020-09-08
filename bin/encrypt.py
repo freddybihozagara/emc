@@ -1,9 +1,10 @@
 #!/usr/bin/python
 #/usr/sbin/env python
-from Tkinter import *
-from ttk import *
-import tkFileDialog as filedialog
-import tkFileDialog as menu
+from tkinter import *
+from tkinter import filedialog
+import tkinter.filedialog
+from tkinter.filedialog import askopenfilename
+from tkinter.ttk import *
 
 from Crypto.Cipher import AES
 from Crypto import Random
@@ -16,8 +17,8 @@ def encrypt_files():
 	in_filename = fileLocation.get()
 	out_filename = dfileLocation.get()
 	
-	obj = AES.new(key, AES.MODE_ECB)
-	obj2 = AES.new(key, AES.MODE_ECB)
+	obj = AES.new(key, AES.MODE_CBC)
+	obj2 = AES.new(key, AES.MODE_CBC)
 	f = open(in_filename, 'r')
 	o = open(out_filename, 'w')
 	
@@ -46,8 +47,8 @@ def decrypt_files():
 	in_filename = fileLocation.get()
 	out_filename = dfileLocation.get()
 	
-	obj = AES.new(key, AES.MODE_ECB)
-	obj2 = AES.new(key, AES.MODE_ECB)
+	obj = AES.new(key, AES.MODE_CBC)
+	obj2 = AES.new(key, AES.MODE_CBC)
 	f = open(in_filename, 'r')
 	o = open(out_filename, 'w')
 	
@@ -151,7 +152,7 @@ state = Entry(app, textvariable=dstate, width=50).pack(side="top", pady=20)
 B4 = Button(app, text="clear", width=10, command=clear).pack(side="top", padx=15, pady=20)
 
 output = StringVar()
-output.set("v0.0.8. Python 2.7					@copyrights 2015 Imena Labs Ltd.")
+output.set("v0.0.8. Python 2.7					@copyrights 2020 Imena Labs Ltd.")
 S_out = Entry(app, textvariable=output, width="150").pack(side="bottom", padx=15, pady=15)
 
 app.mainloop()
