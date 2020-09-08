@@ -5,7 +5,7 @@
 GENERAL USAGE NOTES
 -------------------
 
-- Encrypt requires python 2.7
+- Encrypt requires python 3
 - requires the python-tk package.
 - To launch Encrypt: go to the command line and type in 'python encrypt'
 or double click on encrypt.py.
@@ -20,5 +20,5 @@ IMENA Labs Ltd.
 email:	support@imenalabs.ca
 
 
-Copyright(C) 2015 IMENA Labs Ltd.
+Copyright(C) 2020 IMENA Labs Ltd.
 
